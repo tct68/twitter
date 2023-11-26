@@ -32,8 +32,8 @@ const AccountMenu = (props: AccountMenuProps) => {
   return (
     <Wrapper className='menu-account css-18t94o4 flex-column items-center content-center rounded-element r-6koalj row  r-xyw6el r-o7ynqc r-6416eg'>
       <div className='flex-column'>
-        <div className='flex-column r-1adg3ll r-bztko3 avatar'>
-          <div className='r-1p0dtai r-1pi2tsx r-1d2f490 r-u8s1d r-ipm5af r-13qz1uu'>
+        <div className='flex-column d-block visible-overflow avatar'>
+          <div className='r-1p0dtai r-1pi2tsx r-1d2f490 absolute r-ipm5af w-full'>
             <Image
               src={props.avatarUrl}
               height={40}
@@ -46,14 +46,14 @@ const AccountMenu = (props: AccountMenuProps) => {
       </div>
 
       <div
-        className={`flex-column flex-shrink r-dnmrzs name ${roboto_mono.className}`}
+        className={`flex-column shrink-1 w-full name ${roboto_mono.className}`}
       >
-        <div className='flex-column flex-grow flex-shrink r-1fz3rvf r-dnmrzs '>
-          <div className='flex-column flex-shrink r-dnmrzs full-name'>
+        <div className='flex-column flex-grow shrink-1 r-1fz3rvf w-full '>
+          <div className='flex-column shrink-1 w-full full-name'>
             {props.name}
           </div>
-          <div className='flex-column items-center row flex-shrink'>
-            <div className='flex-column flex-shrink r-dnmrzs '>
+          <div className='flex-column items-center row shrink-1'>
+            <div className='flex-column shrink-1 w-full '>
               {props.userName}
             </div>
           </div>

@@ -1,5 +1,5 @@
 'use client'
-import { Container, Header, RightPanel, TopMenu } from '@/ui'
+import { Container, Header, RightPanel } from '@/ui'
 import styled from 'styled-components'
 const MainLayoutWrapper = styled.main`
   flex-shrink: 1;
@@ -80,12 +80,11 @@ const MainLayout = (props: MainLayoutProps) => {
     <Container className={`${props.className} flex-column row`}>
       <Header />
       <MainLayoutWrapper className='flex-column r-1habvwh'>
-        <div className='flex-column r-150rngu flex-grow flex-shrink r-113js5t main-content'>
+        <div className='flex-column r-150rngu flex-grow shrink-1 r-113js5t main-content'>
           <div className='flex-column flex-grow'>
-            <div className='flex-column stretch r-1niwhzg row flex-grow space-between r-2llsf r-13qz1uu'>
-              <div className='flex-column r-14lw9ot r-jxzhtn r-1ljd8xs r-13l2t4g solid-border-all flex-grow r-1jgb5lz r-11wrixw r-61z16t r-1ye8kvj r-13qz1uu r-184en5c content'>
-                <TopMenu tabs={['Dành cho bạn', 'Đang theo dõi']} />
-                <div className='p-8'>{props.children}</div>
+            <div className='flex-column stretch r-1niwhzg row flex-grow space-between r-2llsf w-full'>
+              <div className='flex-column r-14lw9ot r-jxzhtn r-1ljd8xs r-13l2t4g solid-border-all flex-grow r-1jgb5lz r-11wrixw r-61z16t r-1ye8kvj w-full r-184en5c content'>
+                {props.children}
               </div>
               <RightPanel />
             </div>

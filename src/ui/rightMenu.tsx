@@ -22,7 +22,7 @@ const RightMenu = (props: RightMenuProps) => {
     setItem(item)
   }
   return (
-    <RightMenuWrapper className='flex-column r-1habvwh r-eqz5dr'>
+    <RightMenuWrapper className='flex-column r-1habvwh column'>
       {_.map(props.items, (x, i) => (
         <MenuItem
           isSelected={item === x.name}

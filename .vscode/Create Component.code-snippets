@@ -1,0 +1,14 @@
+{
+  "ReactFunctionalComponent": {
+    "prefix": "rfc",
+    "body": [
+      "type $1Props = {}",
+      "const $1 = (props: $1Props) => {",
+      "    return $0",
+      "}",
+      "",
+      "export default $1"
+    ],
+    "description": "React Functional Component"
+  }
+}

@@ -49,7 +49,7 @@ const Header = (props: HeaderProps) => {
         <div className='flex-column r-1pi2tsx r-1xcajam r-ipm5af'>
           <div className='flex-column r-1pi2tsx space-between r-1rnoaur padding-horizontal left-panel'>
             <div className='flex-column r-1habvwh logo'>
-              <div className='flex-column r-dnmrzs r-1vvnge1'>
+              <div className='flex-column r-1vvnge1'>
                 <h1 className='css-4rbku5 flex-column items-center r-1pz39u2 r-1loqt21 r-6koalj flex-grow r-1777fci r-4wgw6l'>
                   <a className='css-4rbku5 css-18t94o4 flex-column r-1niwhzg r-42olwf rounded-element solid-border-all r-rs99b7 r-1loqt21 r-19yznuf r-64el8z  r-o7ynqc r-6416eg no-select'>
                     <div className='css-901oao items-center r-18jsvk2 r-6koalj row flex-grow r-37j5jr r-a023e6 bold r-1777fci r-rjixqe r-bcqeeo r-q4m81j r-qvutc0'>
@@ -59,7 +59,7 @@ const Header = (props: HeaderProps) => {
                   </a>
                 </h1>
               </div>
-              <div className='flex-column r-15zivkp r-1bymd8e r-13qz1uu'>
+              <div className='flex-column r-15zivkp r-1bymd8e w-full'>
                 <RightMenu
                   items={[
                     {

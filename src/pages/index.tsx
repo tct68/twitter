@@ -1,14 +1,10 @@
-import Image from 'next/image'
-import { Inter } from 'next/font/google'
-
-const inter = Inter({ subsets: ['latin'] })
+import { PostList, TopMenu } from '@/ui'
 
 export default function Home() {
   return (
-    <main
-      className={`flex min-h-screen flex-col items-center justify-between p-24 ${inter.className}`}
-    >
-      a a f
-    </main>
+    <div className=''>
+      <TopMenu tabs={['Dành cho bạn', 'Đang theo dõi']} />
+      <PostList items={['2']} />
+    </div>
   )
 }

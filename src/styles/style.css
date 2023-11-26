@@ -93,10 +93,6 @@ body {
   padding-right: 8px;
 }
 
-.r-dnmrzs {
-  max-width: 100%;
-}
-
 .r-1vvnge1 {
   padding-bottom: 2px;
   padding-top: 2px;
@@ -298,12 +294,8 @@ body {
   margin-top: 12px;
 }
 
-.r-bztko3 {
+.visible-overflow {
   overflow: visible;
-}
-
-.r-1adg3ll {
-  display: block;
 }
 
 .r-1d2f490 {
@@ -338,7 +330,7 @@ body {
   pointer-events: none !important;
 }
 
-.flex-shrink {
+.shrink-1 {
   flex-shrink: 1;
 }
 
@@ -415,15 +407,11 @@ body {
   margin-bottom: 12px;
 }
 
-.r-1iusvr4 {
-  flex-basis: 0px;
-}
-
 .r-8fdsdq {
   z-index: 4;
 }
 
-.r-eqz5dr {
+.column {
   -webkit-box-direction: normal;
   -webkit-box-orient: vertical;
   flex-direction: column;
@@ -575,10 +563,6 @@ body {
 
 .r-1xk2f4g {
   clip: rect(1px, 1px, 1px, 1px);
-}
-
-.r-u8s1d {
-  position: absolute;
 }
 
 .r-wwvuq4 {
@@ -770,9 +754,7 @@ body {
 .r-ttdzmv {
   padding-top: 12px;
 }
-.r-onrtq4 {
-  flex-basis: 40px;
-}
+
 .r-1b7u577 {
   margin-right: 12px;
 }
@@ -780,17 +762,11 @@ body {
   flex-grow: 0;
 }
 
-.r-bztko3 {
+.visible-overflow {
   overflow-x: visible;
   overflow-y: visible;
 }
-.r-1adg3ll {
-  display: block;
-}
 
-.r-u8s1d {
-  position: absolute;
-}
 .r-ipm5af {
   top: 0px;
 }
@@ -804,9 +780,6 @@ body {
   left: 0px;
 }
 
-.r-u8s1d {
-  position: absolute;
-}
 .r-desppf {
   transform: translateX(-50%) translateY(-50%);
 }
@@ -816,18 +789,7 @@ body {
 .r-1v2oles {
   top: 50%;
 }
-
-.r-13qz1uu {
-  width: 100%;
-}
-.r-bztko3 {
-  overflow-x: visible;
-  overflow-y: visible;
-}
-.r-1adg3ll {
-  display: block;
-}
-.r-u8s1d {
+.absolute {
   position: absolute;
 }
 .r-ggadg3 {
@@ -861,4 +823,125 @@ body {
 
 .p-8 {
   padding: 16px;
+}
+
+.bg-white {
+  background-color: rgba(255, 255, 255, 1);
+}
+
+.pt-4 {
+  padding-top: 4px;
+}
+
+.ph-16 {
+  padding-left: 16px;
+  padding-right: 16px;
+}
+
+.z-1 {
+  z-index: 1;
+}
+
+.pt-12 {
+  padding-top: 12px;
+}
+.f-basic-40 {
+  flex-basis: 40px;
+}
+.mr-12 {
+  margin-right: 12px;
+}
+
+.f-grow-0 {
+  flex-grow: 0;
+}
+
+.transition-opacity-color {
+  -moz-transition-property: opacity, color;
+  -webkit-transition-property: opacity, color;
+  transition-property: opacity, color;
+}
+
+.f-basis-0 {
+  flex-basis: 0px;
+}
+
+.pt-4 {
+  padding-top: 4px;
+}
+
+.ease-out-transition {
+  transition-timing-function: ease-out;
+}
+
+.static-position {
+  position: static;
+}
+
+.center-justify-content {
+  justify-content: center;
+}
+
+.f-grow-1 {
+  flex-grow: 1;
+}
+
+.transition-duration-0-1s {
+  transition-duration: 0.1s;
+}
+
+.w-full {
+  width: 100%;
+}
+
+.d-block {
+  display: block;
+}
+
+.transition-200ms {
+  transition-duration: 0.2s;
+}
+
+.pr-16 {
+  padding-right: 16px;
+}
+
+.transition-bg-shadow {
+  -moz-transition-property: background-color, box-shadow;
+  -webkit-transition-property: background-color, box-shadow;
+  transition-property: background-color, box-shadow;
+}
+
+.pl-16 {
+  padding-left: 16px;
+}
+
+.outline-none {
+  outline-style: none;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.overflow-hidden {
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+.flex-grow-1 {
+  flex-grow: 1;
+}
+
+.max-w-full {
+  max-width: 100%;
+}
+
+.size-40 {
+  width: 40px;
+  height: 40px;
+}
+
+.pb-full {
+  padding-bottom: 100%;
 }

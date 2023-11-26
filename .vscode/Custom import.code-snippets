@@ -1,0 +1,7 @@
+{
+  "Custom import package": {
+    "prefix": "ci",
+    "body": ["import {$2} from '$1'"],
+    "description": "Custom import package"
+  }
+}

@@ -7,7 +7,7 @@ const SvgViewer = (props: SvgViewerProps) => (
   <svg
     viewBox='0 0 24 24'
     aria-hidden='true'
-    className='r-4qtqp9 r-yyyyoo r-dnmrzs r-bnwqim r-1plcrui r-lrvibr r-1472mwg r-lrsllp'
+    className='r-4qtqp9 r-yyyyoo w-full r-bnwqim r-1plcrui r-lrvibr r-1472mwg r-lrsllp'
     style={{
       color: '#fff',
     }}

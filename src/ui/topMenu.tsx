@@ -16,9 +16,9 @@ const TopMenu = (props: TopMenuProps) => {
             <div className='flex-column r-6koalj row'>
               <nav className='flex-column items-center r-j5o65s r-rull8r r-qklmqi r-ouzzow row flex-grow r-1hvjb8t'>
                 <div className='flex-column items-center r-1ro0kt6 row flex-grow r-1pi2tsx '>
-                  <div className='flex-column r-1adg3ll flex-grow flex-shrink r-1pi2tsx overflow-h'>
+                  <div className='flex-column d-block flex-grow shrink-1 r-1pi2tsx overflow-h'>
                     <div
-                      className='flex-column row flex-grow flex-shrink r-tzz3ar r-1pi2tsx r-lltvgl r-buy8e9 r-mfh4gg r-2eszeu r-hbs49y'
+                      className='flex-column row flex-grow shrink-1 r-tzz3ar r-1pi2tsx r-lltvgl r-buy8e9 r-mfh4gg r-2eszeu r-hbs49y'
                       style={{ scrollPadding: '0px 36px' }}
                     >
                       {map(props.tabs, (tab, index) => (
