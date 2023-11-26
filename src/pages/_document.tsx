@@ -1,5 +1,5 @@
 import { Html, Head, Main, NextScript } from 'next/document'
-import { roboto_mono } from './fonts'
+import { roboto_mono } from '../fonts'
 
 export default function Document() {
   return (

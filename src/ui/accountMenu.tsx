@@ -1,7 +1,7 @@
 'use client'
 import styled from 'styled-components'
 import Image from 'next/image'
-import { roboto_mono } from '@/pages/fonts'
+import { roboto_mono } from '@/fonts'
 
 const Wrapper = styled.div`
   .avatar {
