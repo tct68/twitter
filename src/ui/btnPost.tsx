@@ -12,7 +12,7 @@ type BtnPostProps = {
 }
 const BtnPost = (props: BtnPostProps) => {
   return (
-    <BtnPostWrapper className='bold flex-container rounded-element solid-border-all r-rs99b7 r-lrvibr r-1waj6vr r-19yznuf r-64el8z r-1dye5f7 r-o7ynqc r-6416eg  r-1loqt21 white'>
+    <BtnPostWrapper className='fw-700 flex-container rounded-element solid-border-all r-rs99b7 r-lrvibr r-1waj6vr r-19yznuf r-64el8z r-1dye5f7 r-o7ynqc r-6416eg  r-1loqt21 white'>
       {props.label}
     </BtnPostWrapper>
   )

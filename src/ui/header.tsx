@@ -46,15 +46,15 @@ const Header = (props: HeaderProps) => {
   return (
     <HeaderWrapper className='flex-column flex-end flex-grow no-select r-1g40b8q'>
       <div className='flex-column r-i5ea98 left-panel'>
-        <div className='flex-column r-1pi2tsx r-1xcajam r-ipm5af'>
-          <div className='flex-column r-1pi2tsx space-between r-1rnoaur padding-horizontal left-panel'>
-            <div className='flex-column r-1habvwh logo'>
+        <div className='flex-column h-full r-1xcajam top-0'>
+          <div className='flex-column h-full space-between r-1rnoaur padding-horizontal left-panel'>
+            <div className='flex-column align-start logo'>
               <div className='flex-column r-1vvnge1'>
-                <h1 className='css-4rbku5 flex-column items-center r-1pz39u2 r-1loqt21 r-6koalj flex-grow r-1777fci r-4wgw6l'>
-                  <a className='css-4rbku5 css-18t94o4 flex-column r-1niwhzg r-42olwf rounded-element solid-border-all r-rs99b7 r-1loqt21 r-19yznuf r-64el8z  r-o7ynqc r-6416eg no-select'>
-                    <div className='css-901oao items-center r-18jsvk2 r-6koalj row flex-grow r-37j5jr r-a023e6 bold r-1777fci r-rjixqe r-bcqeeo r-q4m81j r-qvutc0'>
+                <h1 className='css-4rbku5 flex-column items-center r-1pz39u2 r-1loqt21 flex flex-grow center-justify-content r-4wgw6l'>
+                  <a className='css-4rbku5 css-18t94o4 flex-column bg-color r-42olwf rounded-element solid-border-all r-rs99b7 r-1loqt21 r-19yznuf r-64el8z  r-o7ynqc r-6416eg no-select'>
+                    <div className='css-901oao items-center r-18jsvk2 flex row flex-grow r-37j5jr fs-15 fw-700 center-justify-content line-height-20 min-width-0 r-q4m81j break-word'>
                       <Image src='1.svg' width={24} height={24} alt='1.svg' />
-                      <span className='css-901oao css-16my406 css-1hf3ou5 r-poiln3 r-1inkyih r-rjixqe r-bcqeeo r-qvutc0'></span>
+                      <span className='css-901oao css-16my406 css-1hf3ou5 r-poiln3 r-1inkyih line-height-20 min-width-0 break-word'></span>
                     </div>
                   </a>
                 </h1>

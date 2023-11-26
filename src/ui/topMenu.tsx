@@ -13,12 +13,12 @@ const TopMenu = (props: TopMenuProps) => {
       <div className='flex-column r-1g40b8q'>
         <div className='flex-column r-1e5uvyk r-6026j'>
           <div className='flex-column'>
-            <div className='flex-column r-6koalj row'>
+            <div className='flex-column flex row'>
               <nav className='flex-column items-center r-j5o65s r-rull8r r-qklmqi r-ouzzow row flex-grow r-1hvjb8t'>
-                <div className='flex-column items-center r-1ro0kt6 row flex-grow r-1pi2tsx '>
-                  <div className='flex-column d-block flex-grow shrink-1 r-1pi2tsx overflow-h'>
+                <div className='flex-column items-center r-1ro0kt6 row flex-grow h-full'>
+                  <div className='flex-column d-block flex-grow shrink-1 h-full overflow-h'>
                     <div
-                      className='flex-column row flex-grow shrink-1 r-tzz3ar r-1pi2tsx r-lltvgl r-buy8e9 r-mfh4gg r-2eszeu r-hbs49y'
+                      className='flex-column row flex-grow shrink-1 r-tzz3ar h-full r-lltvgl r-buy8e9 r-mfh4gg r-2eszeu r-hbs49y'
                       style={{ scrollPadding: '0px 36px' }}
                     >
                       {map(props.tabs, (tab, index) => (
