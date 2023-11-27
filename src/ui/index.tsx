@@ -9,6 +9,8 @@ import RightPanel from './rightPanel'
 import Container from './container'
 import PostList from './postList'
 import Post from './post'
+import CreateNewPostModal from './newPost'
+import Modal from './modal'
 
 export {
   Header,
@@ -21,5 +23,7 @@ export {
   RightPanel,
   Container,
   PostList,
-  Post
+  Post,
+  CreateNewPostModal,
+  Modal,
 }

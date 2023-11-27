@@ -13,6 +13,7 @@ export default function Document() {
       <body className={roboto_mono.className}>
         <Main />
         <NextScript />
+        <div id='modal-root'></div>
       </body>
     </Html>
   )

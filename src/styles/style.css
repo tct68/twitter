@@ -2,6 +2,23 @@ body {
   margin: 0px !important;
 }
 
+body:has(.modal-overlay) {
+  overflow: hidden;
+}
+
+#modal-root {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+
+#modal-root .modal-overlay {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
 .container {
   width: 100%;
 }
@@ -302,10 +319,6 @@ body {
   bottom: 0px;
 }
 
-.r-desppf {
-  transform: translateX(-50%) translateY(-50%);
-}
-
 .r-8jfcpp {
   top: -2px;
 }
@@ -566,7 +579,7 @@ body {
   top: -0.5px;
 }
 
-.r-gtdqiz {
+.sticky {
   position: sticky;
 }
 
@@ -743,10 +756,6 @@ body {
 }
 .h-full {
   height: 100%;
-}
-
-.r-desppf {
-  transform: translateX(-50%) translateY(-50%);
 }
 
 .absolute {
@@ -1001,7 +1010,7 @@ body {
 }
 
 .primary {
-  color: rgba(29,155,240,1.00);
+  color: rgba(29, 155, 240, 1);
 }
 
 .mr-2 {
@@ -1010,7 +1019,7 @@ body {
 
 .ml-4 {
   margin-left: 4px;
-} 
+}
 
 .max-height-17 {
   max-height: 17px;
@@ -1022,4 +1031,17 @@ body {
 
 .no-repeat {
   background-repeat: no-repeat;
+}
+
+.mt-8 {
+  margin-top: 8px;
+}
+
+div.DraftEditor-root {
+  min-height: 150px;
+}
+
+div.DraftEditor-editorContainer,
+div.public-DraftEditor-content {
+  height: 100%;
 }

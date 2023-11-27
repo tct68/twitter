@@ -9,7 +9,7 @@ const TopMenu = (props: TopMenuProps) => {
   const [tabName, setTabName] = useState(first(props.tabs))
 
   return (
-    <div className='flex-column r-gtdqiz r-1gn8etr'>
+    <div className='flex-column sticky r-1gn8etr bg-white'>
       <div className='flex-column r-1g40b8q'>
         <div className='flex-column r-1e5uvyk r-6026j'>
           <div className='flex-column'>

@@ -1,6 +1,7 @@
 'use client'
+import { useState } from 'react'
 import Image from 'next/image'
-import { BtnPost, RightMenu } from '.'
+import { BtnPost, CreateNewPostModal, Modal, RightMenu } from '.'
 import styled from 'styled-components'
 import AccountMenu from './accountMenu'
 
@@ -43,6 +44,7 @@ const HeaderWrapper = styled.header`
 
 type HeaderProps = {}
 const Header = (props: HeaderProps) => {
+  const [showModal, setShowModal] = useState(false)
   return (
     <HeaderWrapper className='flex-column flex-end flex-grow no-select r-1g40b8q'>
       <div className='flex-column r-i5ea98 left-panel'>
@@ -102,7 +104,7 @@ const Header = (props: HeaderProps) => {
                 />
               </div>
               <div className='flex-container r-e7q0ms r-1r5su4o'>
-                <BtnPost label='Post' />
+                <BtnPost onClick={() => setShowModal(true)} label='Post' />
               </div>
             </div>
             <div className='flex-column r-usiww2'>
@@ -117,6 +119,11 @@ const Header = (props: HeaderProps) => {
           </div>
         </div>
       </div>
+      {showModal && (
+        <Modal title='Create new post' onClose={() => setShowModal(false)}>
+          <CreateNewPostModal />
+        </Modal>
+      )}
     </HeaderWrapper>
   )
 }

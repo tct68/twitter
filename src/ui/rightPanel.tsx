@@ -9,7 +9,7 @@ const RightPanel = (props: RightPanelProps) => {
   return (
     <RightMenuWrapper className='flex-column r-fif9oo right-menu'>
       <div className='flex-column h-full' style={{ minHeight: '100vh' }}>
-        <div className='flex-column r-gtdqiz child'>aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa</div>
+        <div className='flex-column sticky child'>aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa</div>
       </div>
     </RightMenuWrapper>
   )
