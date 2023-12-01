@@ -1,6 +1,6 @@
 'use client'
-import Image from 'next/image'
 import styled from 'styled-components'
+import Info from './info'
 
 const RightMenuWrapper = styled.div``
 
@@ -9,7 +9,7 @@ const RightPanel = (props: RightPanelProps) => {
   return (
     <RightMenuWrapper className='flex-column r-fif9oo right-menu'>
       <div className='flex-column h-full' style={{ minHeight: '100vh' }}>
-        <div className='flex-column sticky child'>aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa aaaaa</div>
+        <Info />
       </div>
     </RightMenuWrapper>
   )

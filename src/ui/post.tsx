@@ -237,7 +237,7 @@ const Post = (props: PostProps) => {
                                         dir='ltr'
                                         aria-label='3 hours ago'
                                         role='link'
-                                        className='custom-text min-width-0 break-word r-37j5jr fs-15 line-height-20 r-16dba41 inline-flex shrink-0 r-1w6e6rj r-9aw3ui nowrap r-1loqt21'
+                                        className='custom-text min-width-0 break-word r-37j5jr fs-15 line-height-20 r-16dba41 inline-flex shrink-0 wrap r-9aw3ui nowrap r-1loqt21'
                                         style={{
                                           color: 'rgb(83, 100, 113)',
                                         }}
@@ -298,7 +298,7 @@ const Post = (props: PostProps) => {
                         <div
                           dir='auto'
                           lang='en'
-                          className='css-1rynq56 r-8akbws r-krxsd3 r-dnmrzs r-1udh08x r-bcqeeo r-qvutc0 r-37j5jr r-a023e6 r-rjixqe r-16dba41 r-bnwqim'
+                          className='custom-text r-8akbws r-krxsd3 r-dnmrzs r-1udh08x r-bcqeeo r-qvutc0 r-37j5jr r-a023e6 r-rjixqe r-16dba41 r-bnwqim'
                           id='id__rgyy90yxxre'
                           data-testid='tweetText'
                           style={{
@@ -313,7 +313,7 @@ const Post = (props: PostProps) => {
                             alt='📜'
                             draggable='false'
                             src='https://abs-0.twimg.com/emoji/v2/svg/1f4dc.svg'
-                            className='r-4qtqp9 r-dflpy8 r-zw8f10 r-sjv1od r-10akycc r-h9hxbl'
+                            className='inline-block r-dflpy8 r-zw8f10 r-sjv1od r-10akycc r-h9hxbl'
                             title='Scroll'
                             width='1.2em'
                           />
@@ -380,7 +380,7 @@ const Post = (props: PostProps) => {
                           <img
                             alt='👇'
                             src='https://abs-0.twimg.com/emoji/v2/svg/1f447.svg'
-                            className='r-4qtqp9 r-dflpy8 r-zw8f10 r-sjv1od r-10akycc r-h9hxbl'
+                            className='inline-block r-dflpy8 r-zw8f10 r-sjv1od r-10akycc r-h9hxbl'
                             title='Down pointing backhand index'
                             width='1.2em'
                           />

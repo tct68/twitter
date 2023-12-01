@@ -120,7 +120,7 @@ const Header = (props: HeaderProps) => {
         </div>
       </div>
       {showModal && (
-        <Modal title='Create new post' onClose={() => setShowModal(false)}>
+        <Modal title='Create new post' full onClose={() => setShowModal(false)}>
           <CreateNewPostModal />
         </Modal>
       )}

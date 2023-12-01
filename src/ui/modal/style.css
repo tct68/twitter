@@ -1,24 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-*,
-*:before,
-*:after {
-  box-sizing: border-box;
-}
-
-button,
-input,
-select,
-textarea {
-  font: inherit;
-}
-
-a {
-  color: inherit;
-}
-
-/* End basic CSS override */
-
 * {
   scrollbar-width: 0;
 }
@@ -71,8 +52,7 @@ a {
   gap: 8px;
   line-height: 1;
   font-weight: 700;
-  margin-top: 5px;
-  margin-bottom: 5px;
+  margin: 20px;
 }
 
 .modal-container-title svg {
